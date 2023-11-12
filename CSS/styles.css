@@ -1,6 +1,6 @@
 /* Header Nav */
 #logo-img { /* logo Image */  
-  background: url('https://github.com/Sagar-Togra/Sagar-Togra/blob/46a99dbddd1d4b12583648ecdb5a5d92c6e1fb0b/Images/Logo.png') no-repeat;
+  background: url('../Images/Logo.png') no-repeat;
   width: 100px;
   height: 100px;
   margin: 10px 10px;
