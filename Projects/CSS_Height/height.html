@@ -5,6 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>CSS Height Property</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 	<h1>CSS Height Property</h1>
@@ -50,5 +53,53 @@
 		<li>
 			<span class="bold">inherit</span>&nbsp&nbsp:&nbsp&nbsp<span>It sets the property value same as that of its parent element.</span>
 		</li>
+	</ol>
+	<h2>Lets see each of them and how they work</h2>
+	<h3>Auto</h3>
+	<div id="auto" class="border">The height of this div is set to auto</div>
+	<div id="absolute">
+		<h3>Absolute Length</h3>
+		<h4>Centimeters [cm] </h4>
+		<div id="cm" class="border">The height of this div is set to 2.54cm (1 in).</div>
+		<h4>Millimeters [mm] </h4>
+		<div id ="mm" class="border">The height of this div is set to 25.4mm (1 in).</div>
+		<h4>Inches [in] </h4>
+		<div id ="in" class="border">The height of this div is set to 1 inches</div>
+		<h4>Pixels [px] </h4>
+		<div id="px" class="border">The height of this div is set to 96px (1px = 1/96th of 1 inch)</div>
+		<h4>Points [pt] </h4>
+		<div id="pt" class="border">The height of this div is set to 72pt (1pt = 1/72nd of 1 inch)</div>
+		<h4>Picas [pc] </h4>
+		<div id="pc" class="border">The height of this div is set to 6pc [1 in] (1pc = 12pt)</div>
+	</div>
+	<div id="relative">
+		<h3>Relative Length</h3>
+		<h4>em</h4>
+		<div id="em" class="border">The height of this div is set to 3em which is 3 times that of its parent's font-size 17px.</div>
+		<h4>rem</h4>
+		<div id="rem" class="border">The height of this div is set to 3 rem which is 3 times of the root font-size 14px.</div>
+		<h4>ex</h4>
+		<div id="ex" class="border">The height of this div is set to 6ex.</div>
+		<h4>ch</h4>
+		<div id="ch" class="border">The height of this div is set to 5ch.</div>
+		<h4>vw</h4>
+		<div id="vw" class="border">The height of this div is set to 10vw.</div>
+		<h4>vh</h4>
+		<div id="vh" class="border">The height of this div is set to 10vh.</div>
+		<h4>vmin</h4>
+		<div id="vmin" class="border">The height of this div is set to 10vmin.</div>
+		<h4>vmax</h4>
+		<div id="vmax" class="border">The height of this div is set to 10vmax.</div>
+		<h4>% (Percentage)</h4>
+		<div id="percent_parent">
+			<div id="percentage" class="border">The height of this div is set to 80%.</div>
+		</div>
+	</div>
+	<h3>Initial [inital]</h3>
+	<div id="initial" class="border">The height of this div is set to initial.</div>
+	<h3>Inherit [inherit]</h3>
+	<div id="inherit_parent">
+		<div id="inherit" class="border">The height of this div is set to inherit.</div>
+	</div>
 </body>
 </html>

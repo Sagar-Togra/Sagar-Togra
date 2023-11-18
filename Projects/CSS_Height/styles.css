@@ -1,6 +1,79 @@
+html {
+	font-size: 14px;
+}
 body {
-	font-size: 2vw;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
 }
 .bold {
-	font-weight: 800;
+	font-weight: 600;
+}
+#auto	{
+	height: auto;
+}
+.border {
+	border: 1px solid black;
+}
+/** Absolute Length **/
+#cm {
+	height: 2.54cm;
+}
+#mm {
+	height: 25.4mm;
+}
+#in {
+	height: 1in;
+}
+#px {
+	height: 96px;
+}
+#pt {
+	height: 72pt;
+}
+#pc {
+	height: 6pc;
+}
+/** Relative Length **/
+#relative {
+	font-size: 17px;
+}
+#em {
+	height: 3em;
+}
+#rem {
+	height: 3rem;
+}
+#ex {
+	height: 6ex;
+}
+#ch {
+	height: 5ch;
+}
+#vw {
+	height: 10vw;
+}
+#vh {
+	height: 10vh;
+}
+#vmin {
+	height: 10vmin;
+}
+#vmax {
+	height: 10vmax;
+}
+#percent_parent {
+	height: 50px;
+}
+#percentage {
+	height: 80%;
+}
+/** End of Relative length **/
+#initial {
+	height: initial;
+}
+#inherit_parent {
+	height: 50px;
+}
+#inherit {
+	height: inherit;
 }
