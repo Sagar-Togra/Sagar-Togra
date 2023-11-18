@@ -36,7 +36,7 @@
   text-decoration: none;
   color: white;
 }
-#property h2 {
+.project {
   border: 1px solid #debb10;
   width: 300px;
   background-color: #debb10;
