@@ -1,0 +1,34 @@
+body {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+}
+.border {
+	border: 2px solid gray;
+	background-color: gray;
+}
+.border1 {
+	border: 2px solid white;
+}
+#trbl {
+	margin: 10px 200px 70px 90px;
+	height: 40px;
+	background-color: #debb10;
+}
+#tr-lb {
+	margin: 30px 200px 10px;
+	height: 40px;
+	background-color: #debb10;
+}
+#t-br-l{
+	margin: 50px 100px;
+	height: 40px;
+	background-color: #debb10;
+}
+#all {
+	margin: 50px;
+	height: 40px;
+	background-color: #debb10;
+}
+.bold {
+	font-weight: 600;
+}

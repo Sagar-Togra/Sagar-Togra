@@ -28,5 +28,16 @@
   text-decoration: none;
 }
 @media (max-width: 767px) {
-  
+}
+#property {
+  text-align: center;
+}
+#property a:visited, #property a:link, #property a:hover, #property a:active {
+  text-decoration: none;
+  color: white;
+}
+#property h2 {
+  border: 1px solid #debb10;
+  width: 300px;
+  background-color: #debb10;
 }
