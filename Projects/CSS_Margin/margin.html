@@ -22,8 +22,9 @@
 		<li>Left margin is 90px.</li>
 	</ul>
 	<div class="border">
-		<div id="trbl" class="border1">This div has above margin values</div>
+		<div id="trbl" class="border1 divbg">This div has above margin values</div>
 	</div>
+	<div class="divider"></div>
 	<span>2. margin</span>&nbsp&nbsp:&nbsp&nbsp<span>10px 20px 30px;</span></li>
 	<ul>
 		<li>Top margin is 30px.</li>
@@ -31,24 +32,119 @@
 		<li>Bottom margin is 10px.</li>
 	</ul>
 	<div class="border">
-		<div id="tr-lb" class="border1">This div has above margin values</div>
+		<div id="tr-lb" class="border1 divbg">This div has above margin values</div>
 	</div>
+	<div class="divider"></div>
 	<span>3. margin</span>&nbsp&nbsp:&nbsp&nbsp<span>10px 20px;</span></li>
 	<ul>
 		<li>Top and Bottom margin is 50px.</li>
 		<li>Right and Left margin is 100px.</li>
 	</ul>
 	<div class="border">
-		<div id="t-br-l" class="border1">This div has above margin values</div>
+		<div id="t-br-l" class="border1 divbg">This div has above margin values</div>
 	</div>
+	<div class="divider"></div>
 	<span>4. margin</span>&nbsp&nbsp:&nbsp&nbsp<span>10px;</span></li>
 	<ul>
 		<li>All four margin are 50px;</li>
 	</ul>
 	<div class="border">	
-		<div id="all" class="border1">This div has above margin values</div>
+		<div id="all" class="border1 divbg">This div has above margin values</div>
 	</div>
+	<div class="divider"></div>
 	<p><span class="bold">Note.</span> -ve values are allowed.</p>
-
+	<h2>Syntax</h2>
+	<span>margin</span>&nbsp&nbsp&nbsp:&nbsp&nbsp&nbsp<span>length | % | auto | initial | inherit ;</span>
+	<h3>Lets learn about every value one by one</h3>
+	<h3>Auto [auto]</h3>
+	<div class="border">
+		<div id="auto" class="border1 divbg">This div has margin set to auto.</div>
+	</div>
+	<h3>Initial [initial]</h3>
+	<div class="border">
+		<div id="initial" class="border1 divbg">This div has margin set to initial.</div>
+	</div>
+	<h3>Inherit [inherit]</h3>
+	<div id="inherit1" class="border">
+		<div id="inherit" class="border1 divbg">This div has margin set to initial.</div>
+	</div>
+	<div id="absolute">
+		<h3>Absolute Length</h3>
+		<h4>Centimeters [cm] </h4>
+		<div class="border">
+			<div id="cm" class="border1 divbg">The margin of this div is set to 2.54cm (1 in).</div>
+		</div>
+		<h4>Millimeters [mm] </h4>
+		<div class="border">
+			<div id ="mm" class="border1 divbg">The margin of this div is set to 25.4mm (1 in).</div>
+		</div>
+		<h4>Inches [in] </h4>
+		<div class="border">
+			<div id ="in" class="border1 divbg">The margin of this div is set to 1 inches</div>
+		</div>
+		<h4>Pixels [px] </h4>
+		<div class="border">
+			<div id="px" class="border1 divbg">The margin of this div is set to 96px (1px = 1/96th of 1 inch)</div>
+		</div>
+		<h4>Points [pt] </h4>
+		<div class="border">
+			<div id="pt" class="border1 divbg">The margin of this div is set to 72pt (1pt = 1/72nd of 1 inch)</div>
+		</div>
+		<h4>Picas [pc] </h4>
+		<div class="border">
+			<div id="pc" class="border1 divbg">The margin of this div is set to 6pc [1 in] (1pc = 12pt)</div>
+		</div>
+	</div>
+	<div id="relative">
+		<h3>Relative Length</h3>
+		<h4>em</h4>
+		<div class="border">
+			<div id="em" class="border1 divbg">The margin of this div is set to 3em which is 3 times that of its parent's font-size 17px.</div>
+		</div>
+		<h4>rem</h4>
+		<div class="border">
+			<div id="rem" class="border1 divbg">The margin of this div is set to 3 rem which is 3 times of the root font-size 14px.</div>
+		</div>
+		<h4>ex</h4>
+		<div class="border">
+			<div id="ex" class="border1 divbg">The margin of this div is set to 6ex.</div>
+		</div>
+		<h4>ch</h4>
+		<div class="border">
+			<div id="ch" class="border1 divbg">The margin of this div is set to 5ch.</div>
+		</div>
+		<h4>vw</h4>
+		<div class="border">
+			<div id="vw" class="border1 divbg">The margin of this div is set to 5vw.</div>
+		</div>
+		<h4>vh</h4>
+		<div class="border">
+			<div id="vh" class="border1 divbg">The margin of this div is set to 5vh.</div>
+		</div>
+		<h4>vmin</h4>
+		<div class="border">
+			<div id="vmin" class="border1 divbg">The margin of this div is set to 5vmin.</div>
+		</div>
+		<h4>vmax</h4>
+		<div class="border">
+			<div id="vmax" class="border1 divbg">The margin of this div is set to 5vmax.</div>
+		</div>
+		<h4>% (Percentage)</h4>
+		<div id="percent_parent" class="border">			
+			<div id="percentage" class="border1 divbg">The margin of this div is set to 5%.</div>
+	</div>
+	<h3>Note</h3>
+	<p>Bottom margin of 1 element can collapsed with the top margin of veritcally adjacent 2nd element. The margin becomes the largest of them both</p>
+	<div class="border">
+		<div id="elt1" class="border1 divbg">Element 1 with a bottome margin 30px.</div>	
+		<div id="elt2" class="border1 divbg">Element 2 with a top margin 20px.</div>
+	</div>
+	<p>If the margin have not been collapsed it will look like this.</p>
+	<div class="border">
+		<div id="elt1" class="border1 divbg">Element 1</div>
+	</div>
+	<div class="border">
+		<div id="elt2" class="border1 divbg">Element 2</div>
+	</div>	
 </body>
 </html>

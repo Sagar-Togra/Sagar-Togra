@@ -38,6 +38,16 @@
 }
 .project {
   border: 1px solid #debb10;
-  width: 300px;
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #debb10;
+  margin-left: auto;
+  margin-right: auto;
+}
+#chp h2 {
+  margin-top: 0;
+  vertical-align: middle;
 }

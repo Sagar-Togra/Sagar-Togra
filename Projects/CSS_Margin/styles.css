@@ -2,6 +2,9 @@ body {
 	font-size: 16px;
 	font-family: 'Roboto', sans-serif;
 }
+.bold {
+	font-weight: 600;
+}
 .border {
 	border: 2px solid gray;
 	background-color: gray;
@@ -9,26 +12,121 @@ body {
 .border1 {
 	border: 2px solid white;
 }
+.divbg {
+	background-color: #debb10;
+	height: 40px;
+}
+.divider {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid black;
+}
+/** All 4 Ways **/
 #trbl {
 	margin: 10px 200px 70px 90px;
-	height: 40px;
-	background-color: #debb10;
 }
 #tr-lb {
 	margin: 30px 200px 10px;
-	height: 40px;
-	background-color: #debb10;
 }
 #t-br-l{
 	margin: 50px 100px;
-	height: 40px;
-	background-color: #debb10;
 }
 #all {
 	margin: 50px;
 	height: 40px;
-	background-color: #debb10;
 }
-.bold {
-	font-weight: 600;
+/** End **/
+/** START OF ALL VALUES **/		
+#auto {
+	margin: auto;
+	height: 40px;
+}
+#initial {
+	margin: initial;
+	height: 40px;
+}
+#inherit1 {
+	margin: 40px;
+}
+#inherit {
+	margin: inherit;
+}
+/** ABSOLUTE LENGTH **/
+#cm {
+	margin: 2.54cm;
+}
+#cm {
+	margin: 2.54cm;
+}
+#mm {
+	margin: 25.4mm;
+}
+#in {
+	margin: 1in;
+	
+}
+#px {
+	margin: 96px;
+	
+}
+#pt {
+	margin: 72pt;
+	
+}
+#pc {
+	margin: 6pc;
+	
+}
+/** Relative Length **/
+#relative {
+	font-size: 17px;
+}
+#em {
+	margin: 3em;
+	
+}
+#rem {
+	margin: 3rem;
+	
+}
+#ex {
+	margin: 6ex;
+	
+}
+#ch {
+	margin: 5ch;
+	
+}
+#vw {
+	margin: 5vw;
+	
+}
+#vh {
+	margin: 5vh;
+	
+}
+#vmin {
+	margin: 5vmin;
+	
+}
+#vmax {
+	margin: 5vmax;
+	
+}
+#percentage {
+	margin: 5%;
+	
+}
+#elt1, #elt2 {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#elt1 {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+#elt2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
