@@ -1,33 +1,38 @@
-/* Header Nav */
-#logo-img { /* logo Image */  
-  background: url('../Images/Logo.png') no-repeat;
-  width: 100px;
-  height: 100px;
-  margin: 10px 10px;
-  border: 0;
-  border-radius: 30px;
-}
-#header-nav {
+/** START OF HEADER **/
+header {
   background-color: #debb10;
-  border: 0;
-  border-radius: 0;
-}
-.navbar-brand h1 {
-  font-family: 'Comfortaa', sans-serif;
+  height: 50px;
   text-align: center;
-  vertical-align: middle;
-  color: #debb10;
-  background-color: #fff;
-  font-weight: bold;
-  text-transform: uppercase;  
-  border-radius: 5px;
-  padding: 10px 10px;  
-  font-size: 2.4em;
 }
-.navbar-header a:hover, .navbar-header a:focus {
+#menu {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav a {
   text-decoration: none;
 }
+#menu a:link , #menu a:visited {
+  color: white;
+}
+.menulink a:hover {
+  background-color: white;
+  color: #debb10;
+}
+#menu div {
+  border: 1px solid white;
+  float: left;
+  margin-top: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+/** END OF HEADER **/
+/** MEDIA QUERIES **/
 @media (max-width: 767px) {
+  header {
+    height: 200px;
+  }
 }
 #property {
   text-align: center;
