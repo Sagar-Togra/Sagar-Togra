@@ -28,9 +28,9 @@ nav a {
   padding: 10px;
 }
 /** END OF HEADER **/
-/**---------------------**/
+
 /** MEDIA QUERIES **/
-/**---------**/
+
 /** LARGE DEVICES ONLY **/
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
@@ -206,36 +206,6 @@ nav a {
   }
 }
 /** END OF EXTRA SMALL DEVICES **/
-/**------------------**/
-/** END OF MEDIA QUERIES **/
 /**-----------------------------**/
-/** START OF THE PROJECT TILES **/
-#property {
-  text-align: center;
-}
-#property a:visited, #property a:link, #property a:hover, #property a:active {
-  text-decoration: none;
-  color: white;
-}
-.project {
-  border: 1px solid #debb10;
-  border-radius: 10px;
-  height: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #debb10;
-}
-#csw, #csh, #csm {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.project {
-  width: 90%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-#csh {
-  clear: left;
-}
-/** END OF PROJECT TILES **/
+/** END OF MEDIA QUERIES **/
+

@@ -28,9 +28,9 @@ nav a {
   padding: 10px;
 }
 /** END OF HEADER **/
-/**---------------------**/
+
 /** MEDIA QUERIES **/
-/**---------**/
+
 /** LARGE DEVICES ONLY **/
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
@@ -206,10 +206,9 @@ nav a {
   }
 }
 /** END OF EXTRA SMALL DEVICES **/
-/**------------------**/
-/** END OF MEDIA QUERIES **/
 /**-----------------------------**/
-/** START OF THE PROJECT TILES **/
+/** END OF MEDIA QUERIES **/
+
 #property {
   text-align: center;
 }
@@ -238,4 +237,3 @@ nav a {
 #csh {
   clear: left;
 }
-/** END OF PROJECT TILES **/
