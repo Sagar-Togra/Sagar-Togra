@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">	
+	<title>CSS Position Property</title>
+</head>
+<body>
+	<h1>CSS Position Property</h1>
+	<h2>Syntax&nbsp&nbsp:&nbsp&nbspstatic | relative | fixed | absolute | sticky;</h2>
+	<p>Lets know about each value one by one.</p>
+	<h3>Static</h3>
+	<ul>
+		<li>It is the default setting.</li>
+		<li>It isn't affected by the top, bottom, left and rigth properties.</li>
+	</ul>
+	<div id="static" class="border">This div has position set static.</div>
+	<h3>Relative</h3>
+	<ul>	
+		<li>When an element position is set to relative, it can be moved relative to its normal position by using top, bottom, left and right property.</li>
+		<li>It leaves a gap from where it was moved.</li>
+	</ul>
+	<div class="container">
+		<div id="relative" class="border">This div has position set to relative with top property of 50px and left property of 50px.</div>
+	</div>
+	<h3>Fixed</h3>
+		<ul>
+			<li>Element with position set to fixed is positioned relative to the viewport.</li>
+			<li>The scroll has no effect on this. It will stay where it is.</li>
+			<li>This doesn't leave any gap.</li>
+		</ul>
+	<div id="fixed1" class="border">You can see this div in the top right of the viewport.</div>
+	<div id="fixed" class="border">This div has position set to Fixed. It is in the bottom rigth of viewport.</div>
+	<h3>Absolute</h3>
+	 <ul>
+	 	<li>Element with position set to absolute is positioned relative to the neared positioned parent element.</li>
+	 	<li>In absence of a positioned parent, element is positioned relative to the body by default.</li>
+	 	<li>It is removed from the normal flow adn can overlap</li>
+	 </ul>
+	<div class="parent">
+		<p>This is the parent div</p>
+		<div id="absolute" class="border">This div has position set to absolute with bottom property of 10px and right property of 10px.</div>
+	</div>
+	<p>As stated earlier it can overlap lets see for ourself.</p>
+		<div class="parent">
+		<p>This is the parent div</p>
+		<div id="absolute1" class="border">This div has position set to absolute with bottom property of -30px and right property of 10px.</div>
+	</div>
+	<p>This line is being overlapped.</p>
+	<h3>Sticky</h3>
+		<ul>
+			<li>Element with position set to sticky is positioned based on user's scroll position.</li>
+			<li>It is relative when it in the viewport when outsitd of viewport it becomes fixed.</li>
+			<li>Note
+				<ul>
+					<li>It does't work in Internet explorer</li>
+					<li>In safari you need to add "-webkit-" prefix.</li>
+				</ul>
+			</li>
+		</ul>
+	<div id="sticky" class="border">
+		this div has position set to sticky with top 20px and left 10px.
+	</div>
+	<p id="scroll">Scroll to see the sticky work.<br>.<br>.</p>
+	<footer id="footer">
+		<p>&copy SKillsuptode.com 2023</p>
+	</footer>
+</body>
+</html>
