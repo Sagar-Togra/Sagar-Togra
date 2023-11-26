@@ -224,7 +224,7 @@ nav a {
   padding-bottom: 10px;
   background-color: #debb10;
 }
-#csw, #csh, #csm {
+#property div {
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -233,7 +233,4 @@ nav a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-#csh {
-  clear: left;
 }
