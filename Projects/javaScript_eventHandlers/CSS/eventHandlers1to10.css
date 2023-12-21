@@ -1,0 +1,25 @@
+.event {
+	position: relative;
+	height:	50px;
+	width:	50px;
+	background-color: gray;
+	border: 2px solid black;
+	margin-left: 20px;
+}
+.tgt {
+	position: absolute;
+	margin-top: 15px; 
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+#onscroll {
+	width: 300px;
+	overflow: scroll;
+	font-weight: bold;
+	font-size: 100px;
+	height: 200px;
+}
+#onscrolltgt {
+	color: black;
+}
