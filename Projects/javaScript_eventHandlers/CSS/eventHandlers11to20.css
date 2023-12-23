@@ -1,0 +1,43 @@
+.event {
+	height:	50px;
+	width:	50px;
+	background-color: gray;
+	border: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+.tgt {
+	font-size: 2em;
+	height: 50px;
+	color: #166ca6;
+	margin-bottom: 10px; 
+	text-align: center;
+
+	font-weight: bold;
+}
+#onscroll {
+	width: 300px;
+	overflow: scroll;
+	font-weight: bold;
+	font-size: 100px;
+	height: 200px;
+}
+#onscrolltgt {
+	color: black;
+}
+#onblur {
+	width: 40px;
+	margin-bottom: 5px;
+}
+#onblurtgt {
+	float: left;
+	clear: left;
+}
+.row {
+	float: left;
+	width: 40%;
+	margin-bottom: 10px;
+}
+hr {
+	clear: both;
+}

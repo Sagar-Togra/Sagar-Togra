@@ -1,32 +1,46 @@
 /** START OF HEADER **/
+body {
+  background-color: #EAE7DC;
+}
 header {
-  background-color: #debb10;
   height: 50px;
   text-align: center;
 }
 #menu {
-  width: 50%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 nav a {
   text-decoration: none;
 }
-#menu a:link , #menu a:visited {
-  color: white;
-}
-.menulink a:hover {
-  background-color: white;
-  color: #debb10;
-}
 #menu div {
-  border: 1px solid white;
+  box-sizing: border-box;
   float: left;
   margin-top: 4px;
   margin-left: 10px;
   margin-right: 10px;
-  padding: 10px;
 }
+#menu div a {
+  box-sizing: border-box;
+  font-family: 'Anton', sans-serif;
+  font-size: 1.3em;
+  padding: 10px;
+  border-radius: 5px;
+}
+#menu div a:link {
+  color: #8e8d8a;
+}
+#menu div a:visited {
+  color: #8e8d8a;
+}
+#menu div a:hover {
+  background-color: #8e8d8a;
+  color: #d8c3a5;
+
+}
+
+
 /** END OF HEADER **/
 /**---------------------**/
 /** MEDIA QUERIES **/
@@ -215,15 +229,15 @@ nav a {
 }
 #property a:visited, #property a:link, #property a:hover, #property a:active {
   text-decoration: none;
-  color: white;
+  color: #d8c3a5;
 }
 .project {
-  border: 1px solid #debb10;
+  border: 1px solid #8e8d8a;
   border-radius: 10px;
   height: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #debb10;
+  background-color: #e85a4f;
 }
 #property div {
   margin-top: 10px;
