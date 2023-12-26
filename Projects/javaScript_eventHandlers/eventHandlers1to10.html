@@ -3,10 +3,37 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../../CSS/styles.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/styles.css">
 	<link rel="stylesheet" type="text/css" href="CSS/eventHandlers1to10.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 	<title>Event Handlers Page 1 (1-10)</title>
 </head>
 <body>
+	<header>
+		<nav>
+
+			<div id="menu">
+				<div>
+					<a id="Home"  class="menulink" href="../../index.html">Home</a>
+				</div>
+				<div>
+					<a id="html"  class="menulink" href="../../Menu/HTML/allhtml.html">HTML</a>
+				</div>
+				<div>
+					<a id="css"  class="menulink" href="../../Menu/CSS/allcss.html">CSS</a>
+				</div>
+				<div>
+					<a id="javaScript"  class="menulink" href="../../Menu/JavaScript/allJavaScript.html">JavaScript</a>
+				</div>
+				<div>
+					<a id="PrivacyPolicy" class="menulink" href="../../Menu/Privacy_Policy.html">Privacy Police</a>
+				</div>
+			</div>	
+		</nav>
+	</header>
 	<h1>Event Handlers</h1>
 	<p>From 1 to 10;</p>
 	<h2>Mouse related events;</h2>
@@ -14,7 +41,14 @@
 	<p>The element with a "onclick" attribute, when clicked will create an event and will execute whatever the function has been given to it.;</p>
 	<p>For Example <br>
 	&lt;span onclick="sayHello();"&gt;&lt;/span&gt;</p>
-	<div id="onclick" class="event"><span id="onclicktgt" class="tgt"></span></div>
+	<div>
+		<div class="row">
+			<div id="onclick" class="event"></div>
+		</div>
+		<div class="row1">
+			<span id="onclicktgt" class="tgt"></span>
+		</div>	
+	</div>	
 	
 	<hr>
 
@@ -22,7 +56,14 @@
 	<p>The element with a "onmouseover" attribute, will create an event when mouse comes over the element and will execute whatever the function has been given to it.;</p>
 	<p>For Example <br>
 	&lt;span onmouseover="sayHello();"&gt;&lt;/span&gt;</p>
-	<div id="onmouseover" class="event"><span id="onmouseovertgt" class="tgt"></span></div>
+	<div>
+		<div class="row">
+			<div id="onmouseover" class="event"></div>
+		</div>
+		<div class="row1">
+			<span id="onmouseovertgt" class="tgt"></span>
+		</div>	
+	</div>
 
 	<hr>
 
@@ -30,7 +71,14 @@
 	<p>The element with a "onmousedown" attribute, will create an event when mouse button is pressed down over the element and will execute whatever the function has been given to it.;</p>
 	<p>For Example <br>
 	&lt;span onmousedown="sayHello();"&gt;&lt;/span&gt;</p>
-	<div id="onmousedown" class="event"><span id="onmousedowntgt" class="tgt"></span></div>
+	<div>
+		<div class="row">
+			<div id="onmousedown" class="event"></div>
+		</div>
+		<div class="row1">
+			<span id="onmousedowntgt" class="tgt"></span>
+		</div>	
+	</div>
 
 	<hr>
 
@@ -38,7 +86,14 @@
 	<p>The element with a "onmouseup" attribute, will create an event when mouse button is released over the element and will execute whatever the function has been given to it.;</p>
 	<p>For Example <br>
 	&lt;span onmouseup="sayHello();"&gt;&lt;/span&gt;</p>
-	<div id="onmouseup" class="event"><span id="onmouseuptgt" class="tgt"></span></div>
+	<div>
+		<div class="row">
+			<div id="onmouseup" class="event"></div>
+		</div>
+		<div class="row1">
+			<span id="onmouseuptgt" class="tgt"></span>
+		</div>	
+	</div>	
 
 	<hr>
 
@@ -46,7 +101,14 @@
 	<p>The element with a "onmouseout" attribute, will create an event when mouse cursor lefts the element and will execute whatever the function has been given to it.;</p>
 	<p>For Example <br>
 	&lt;span onmouseout="sayHello();"&gt;&lt;/span&gt;</p>
-	<div id="onmouseout" class="event"><span id="onmouseouttgt" class="tgt"></span></div>
+	<div>
+		<div class="row">
+			<div id="onmouseout" class="event"></div>
+		</div>
+		<div class="row1">
+			<span id="onmouseouttgt" class="tgt"></span>
+		</div>	
+	</div>
 
 	<hr>
 
@@ -54,7 +116,14 @@
 	<p>The element with a "onmousemove" attribute, will create an event when mouse cursor moves on the element and will execute whatever the function has been given to it.;</p>
 	<p>For Example <br>
 	&lt;span onmousemove="sayHello();"&gt;&lt;/span&gt;</p>
-	<div onm id="onmousemove" class="event"><span id="onmousemovetgt" class="tgt"></span></div>
+	<div>
+		<div class="row">
+			<div id="onmousemove" class="event"></div>
+		</div>
+		<div class="row1">
+			<span id="onmousemovetgt" class="tgt"></span>
+		</div>	
+	</div>
 
 	<hr>
 
@@ -62,7 +131,15 @@
 	<p>The element with a "onmouseenter" attribute, will create an event when mouse cursor enters on a element and will execute whatever the function has been given to it.;</p>
 	<p>For Example <br>
 	&lt;span onmouseenter="sayHello();"&gt;&lt;/span&gt;</p>
-	<div id="onmouseenter" class="event"><span id="onmouseentertgt" class="tgt"></span></div>
+	<div>
+		<div class="row">
+			<div id="onmouseenter" class="event"></div>
+		</div>
+		<div class="row1">
+			<span id="onmouseentertgt" class="tgt"></span>
+		</div>	
+	</div>
+
 
 	<hr>
 
@@ -70,7 +147,14 @@
 	<p>The element with a "onmouseleave" attribute, will create an event when mouse cursor leaves the element and will execute whatever the function has been given to it.;</p>
 	<p>For Example <br>
 	&lt;span onmouseleave="sayHello();"&gt;&lt;/span&gt;</p>
-	<div id="onmouseleave" class="event"><span id="onmouseleavetgt" class="tgt"></span></div>
+	<div>
+		<div class="row">
+			<div id="onmouseleave" class="event"></div>
+		</div>
+		<div class="row1">
+			<span id="onmouseleavetgt" class="tgt"></span>
+		</div>	
+	</div>
 
 	<hr>
 
@@ -78,7 +162,14 @@
 	<p>The element with a "onmousewheel" attribute, will create an event when mouse wheel is used on the element and will execute whatever the function has been given to it.;</p>
 	<p>For Example <br>
 	&lt;span onmousewheel="sayHello();"&gt;&lt;/span&gt;</p>
-	<div id="onmousewheel" class="event"><span id="onmousewheeltgt" class="tgt"></span></div>
+	<div>
+		<div class="row">
+			<div id="onmousewheel" class="event"></div>
+		</div>
+		<div class="row1">
+			<span id="onmousewheeltgt" class="tgt"></span>
+		</div>	
+	</div>
 
 	<hr>
 
@@ -86,8 +177,16 @@
 	<p>The element with a "onscroll" attribute, will create an event when mouse wheel is used on the element and will execute whatever the function has been given to it.;</p>
 	<p>For Example <br>
 	&lt;span onscroll="sayHello();"&gt;&lt;/span&gt;</p>
-	<div id="onscroll" class="event">Scroll to see</div>
-	<span id="onscrolltgt" class="tgt"></span>
+	<div>
+		<div class="row">
+			<div id="onscroll" class="event">Scroll to see</div>
+		</div>
+		<div class="row1">
+			<span id="onscrolltgt" class="tgt"></span>
+		</div>	
+	</div>
+	
+
 
 	<br>
 	<br>

@@ -1,16 +1,22 @@
+body {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #EAE7DC;
+}
 .event {
-	position: relative;
-	height:	50px;
-	width:	50px;
-	background-color: gray;
-	border: 2px solid black;
-	margin-left: 20px;
+	height:	100px;
+	width:	200px;
+	background-color: #d8c3a5;
+	border: 2px solid #8e8d8a;
+	margin-left: auto;
+	margin-right: auto;
 }
 .tgt {
 	position: absolute;
-	margin-top: 15px; 
-	text-align: center;
-	color: white;
+	margin-top: 20px;
+	font-size: 2em;
+	height: 50px;
+	color: #e85a4f;
 	font-weight: bold;
 }
 #onscroll {
@@ -19,7 +25,22 @@
 	font-weight: bold;
 	font-size: 100px;
 	height: 200px;
+	color: #EAE7DC;
 }
-#onscrolltgt {
-	color: black;
+#onblurdiv {
+	position: relative;
+}
+.row {
+	float: left;
+	width: 40%;
+	margin-bottom: 10px;
+}
+.row1 {
+	position: relative;
+	float: left;
+	height: 100px;
+	width: 200px;
+}
+hr {
+	clear: both;
 }

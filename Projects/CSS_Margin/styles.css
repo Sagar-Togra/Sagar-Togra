@@ -1,25 +1,34 @@
 body {
 	font-size: 16px;
 	font-family: 'Roboto', sans-serif;
+	background-color: #EAE7DC;
+}
+ul {
+	color: #E98074;
+}
+.types {
+	color: #E85A4F;
 }
 .bold {
 	font-weight: 600;
 }
 .border {
-	border: 2px solid gray;
-	background-color: gray;
+	border: 2px solid #8e8d8a;
+	color: #8e8d8a;
+	background-color: #D8C3A5;
 }
 .border1 {
-	border: 2px solid white;
+	border: 2px solid #e85a4f;
+	color: #EAE7DC;
 }
 .divbg {
-	background-color: #debb10;
+	background-color: #e98074;
 	height: 40px;
 }
 .divider {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #8e8d8a;
 }
 /** All 4 Ways **/
 #trbl {

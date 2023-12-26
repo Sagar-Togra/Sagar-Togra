@@ -1,33 +1,36 @@
+body {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #EAE7DC;
+}
 .event {
-	height:	50px;
-	width:	50px;
-	background-color: gray;
-	border: 2px solid black;
+	height:	100px;
+	width:	200px;
+	background-color: #d8c3a5;
+	border: 2px solid #8e8d8a;
 	margin-left: auto;
 	margin-right: auto;
 }
 .tgt {
+	position: absolute;
+	margin-top: 20px;
 	font-size: 2em;
 	height: 50px;
-	color: #166ca6;
-	margin-bottom: 10px; 
-	text-align: center;
-
+	color: #e85a4f;
 	font-weight: bold;
 }
-#onscroll {
-	width: 300px;
-	overflow: scroll;
-	font-weight: bold;
-	font-size: 100px;
-	height: 200px;
-}
-#onscrolltgt {
-	color: black;
+#onblurdiv {
+	position: relative;
 }
 #onblur {
-	width: 40px;
-	margin-bottom: 5px;
+	position: absolute;
+	height: 20px;
+	width: 60px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: #e98074;
+	border: 2px solid #8e8d8a;
+	border-radius: 5px;
 }
 #onblurtgt {
 	float: left;
@@ -37,6 +40,12 @@
 	float: left;
 	width: 40%;
 	margin-bottom: 10px;
+}
+.row1 {
+	position: relative;
+	float: left;
+	height: 100px;
+	width: 200px;
 }
 hr {
 	clear: both;
