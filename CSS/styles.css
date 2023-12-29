@@ -264,3 +264,11 @@ nav a {
   clear: left;
 }
 /** END OF PROJECT TILES **/
+footer {
+
+}
+footer p {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
