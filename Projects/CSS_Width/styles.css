@@ -88,3 +88,11 @@ ol span {
 #inherit {
 	width: inherit;
 }
+#minwid {
+	min-width: 400px;
+	width: 100px;	
+}
+#maxwid {
+	width: 1000px;
+	max-width: 300px;
+}

@@ -9,23 +9,73 @@
 
 <url>
   <loc>https://www.skillsuptodate.com/</loc>
-  <lastmod>2023-11-19T10:57:51+00:00</lastmod>
+  <lastmod>2023-12-29T11:53:59+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.skillsuptodate.com/Projects/CSS_Height/height.html</loc>
-  <lastmod>2023-11-19T10:57:51+00:00</lastmod>
+  <loc>https://www.skillsuptodate.com/Menu/HTML/allhtml.html</loc>
+  <lastmod>2023-12-29T11:53:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.skillsuptodate.com/Menu/CSS/allcss.html</loc>
+  <lastmod>2023-12-29T11:53:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.skillsuptodate.com/Menu/JavaScript/allJavaScript.html</loc>
+  <lastmod>2023-12-29T11:53:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.skillsuptodate.com/Menu/Privacy_Policy.html</loc>
+  <lastmod>2023-12-29T11:53:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.skillsuptodate.com/Projects/CSS_Height/CSS_Height_Property.html</loc>
+  <lastmod>2023-12-29T11:53:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.skillsuptodate.com/Projects/CSS_Width/width.html</loc>
-  <lastmod>2023-11-19T10:57:51+00:00</lastmod>
+  <lastmod>2023-12-29T11:53:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.skillsuptodate.com/Projects/CSS_Margin/margin.html</loc>
-  <lastmod>2023-11-19T10:57:51+00:00</lastmod>
+  <lastmod>2023-12-29T11:53:59+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.skillsuptodate.com/Projects/CSS_Position/position.html</loc>
+  <lastmod>2023-12-29T11:53:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.skillsuptodate.com/Projects/CSS_Bottom/bottom.html</loc>
+  <lastmod>2023-12-29T11:53:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.skillsuptodate.com/Projects/HTML_Meta/meta.html</loc>
+  <lastmod>2023-12-29T11:53:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.skillsuptodate.com/index.html</loc>
+  <lastmod>2023-12-29T11:53:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.skillsuptodate.com/Projects/javaScript_eventHandlers/eventHandlers1to10.html</loc>
+  <lastmod>2023-12-29T11:53:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.skillsuptodate.com/Projects/javaScript_eventHandlers/eventHandlers11to20.html</loc>
+  <lastmod>2023-12-29T11:53:59+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
