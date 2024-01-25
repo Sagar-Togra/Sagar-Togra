@@ -3,6 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="In this page you will get to know 10 event handlers in working.">
+	<meta name="keyword" content="auxclick, oncontextmenu, ondblclick, onblur">
 	<link rel="stylesheet" type="text/css" href="../../CSS/styles.css">
 	<link rel="stylesheet" type="text/css" href="CSS/eventHandlers11to20.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">	
@@ -11,6 +13,9 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	<title>Event Handlers Page 1 (1-10)</title>
 </head>
 <body>
@@ -39,11 +44,12 @@
 	<h1>Event Handlers</h1>
 	<p>From 11 to 20;</p>
 
-	<h3>1. Aux Click [ auxclick ] </h3>
-	<p>The element with a "onauxclick" attribute, will create an event when a non primary mouse button has been pressed and will execute whatever the function has been given to it.;</p>
-	<p>For Example <br>
+	<h3>11. Aux Click [ auxclick ] </h3>
+	<p>An auxclick event is when the user has used a non primary mouse button.</p>
+	<p>In the below example when you right click the box it will execute the sayHello function, Try yourself</p>
+	<p class="example">For Example <br>
 	&lt;span onauxclick="sayHello();"&gt;&lt;/span&gt;</p>
-	
+	<p>Press your right mouse button to see the function works</p>
 	<div>
 		<div class="row">
 			<div id="onauxclick" class="event"></div>
@@ -52,10 +58,12 @@
 			<span id="onauxclicktgt" class="tgt"></span>
 		</div>	
 	</div>
-
+	<span id="auxvsclick">If you want to see the difference between auxclick and click event. 
+		<a href="">Click here</a>
+	</span>
 	<hr>
 
-	<h3>2. On Context Menu [ oncontextmenu ]</h3>
+	<h3>12. On Context Menu [ oncontextmenu ]</h3>
 	<p>The element with a "oncontextmenu" attribute, will create an event when rigth mouse button is pressed over the element and will execute whatever the function has been given to it.;</p>
 	<p>For Example <br>
 	&lt;span oncontextmenu="sayHello();"&gt;&lt;/span&gt;</p>
@@ -70,7 +78,7 @@
 
 	<hr>
 
-	<h3>3. On DBL Click [ ondblclick ]</h3>
+	<h3>13. On DBL Click [ ondblclick ]</h3>
 	<p>The element with a "ondblclick" attribute, will create an event when left mouse button is pressed two times over the element and will execute whatever the function has been given to it.;</p>
 	<p>For Example <br>
 	&lt;span ondblclick="sayHello();"&gt;&lt;/span&gt;</p>
@@ -85,7 +93,7 @@
 
 	<hr>
 
-	<h3>4. On Blur [ onblur ]</h3>
+	<h3>14. On Blur [ onblur ]</h3>
 	<p>The element with a "onblur" attribute, will create an event when mouse button is released over the element and will execute whatever the function has been given to it.;</p>
 	<p>For Example <br>
 	&lt;span onblur="sayHello();"&gt;&lt;/span&gt;</p>

@@ -50,3 +50,6 @@ body {
 hr {
 	clear: both;
 }
+#auxvsclick {
+	float: left;
+}

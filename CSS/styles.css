@@ -11,7 +11,8 @@ h3, h4 {
   color: #E98074;
 }
 p {
-  color: #8E8D8A;
+  color: #515251;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 header {
   height: 50px;
@@ -50,7 +51,9 @@ nav a {
   color: #d8c3a5;
 
 }
-
+.example {
+  color: #8e8d8a;
+}
 
 /** END OF HEADER **/
 /**---------------------**/
