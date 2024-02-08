@@ -82,3 +82,17 @@ ol span {
 #inherit {
 	height: inherit;
 }
+div.related_posts {
+	text-align: center;
+	color: #8e8d8a;
+	background-color: #D8C3A5;
+}
+a.related_posts {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+}
+div.related_posts {
+	margin-bottom: -5px;
+}
